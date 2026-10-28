@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Blushcart</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">A little treat for you — enjoy 10% off your first order</div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">b.</span><span>blushcart<small>STYLE • BEAUTY • EVERYDAY</small></span></a>
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="categories.html">Categories</a>
+      <a href="about.html">Our Story</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="icon-link" href="products.html#cart-section">♡ <span id="cart-count">0</span></a>
+      <button class="theme-toggle" aria-label="Toggle dark mode">☾</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <span class="eyebrow">WE'RE ALL EARS</span>
+      <h1>Let's have a <em>little chat.</em></h1>
+      <p>A question, a suggestion, or just a hello — we'd love to hear from you.</p>
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    </section>
+
+    <section class="section contact-layout">
+      <div class="contact-side">
+        <span class="eyebrow">GET IN TOUCH</span>
+        <h2>There's a person behind every message.</h2>
+        <p>Fill out the form and your message will be checked in this website demo.</p>
+
+        <div class="contact-detail">
+          <span>✉</span>
+          <div><strong>Email us</strong><p>hello@blushcart.example</p></div>
+        </div>
+
+        <div class="contact-detail">
+          <span>◷</span>
+          <div><strong>When we're around</strong><p>Monday – Saturday<br>10:00 AM – 6:00 PM</p></div>
+        </div>
+
+        <div class="contact-note">
+          <strong>A quick note</strong>
+          <p>This is a college project demonstration. The form validates your entries but does not send them to a real inbox.</p>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-title">
+          <span class="eyebrow">YOUR MESSAGE</span>
+          <h2>Write to us</h2>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+          </div>
+          <div>
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+
+        <label for="subject">What is it about?</label>
+        <select id="subject" name="subject" required>
+          <option value="">Choose a topic</option>
+          <option>Product question</option>
+          <option>Order support</option>
+          <option>Feedback or suggestion</option>
+          <option>Just saying hello</option>
+        </select>
+
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind..." required></textarea>
+
+        <button class="btn btn-dark" type="submit">Send message ↗</button>
+        <p id="form-message" class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">b.</span><span>blushcart<small>STYLE • BEAUTY • EVERYDAY</small></span></a><p>For the everyday moments that deserve a little extra lovely.</p></div>
+      <div><h4>Explore</h4><a href="products.html">Shop all</a><a href="categories.html">Categories</a><a href="about.html">Our story</a></div>
+      <div><h4>Need help?</h4><a href="contact.html">Contact us</a><a href="products.html#cart-section">Your cart</a></div>
+      <div><h4>Follow the feeling</h4><p>Instagram · Pinterest · YouTube</p><p>hello@blushcart.example</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Blushcart. College project demo.</span><span>Made with ♡ and a little blush.</span></div>
+  </footer>
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
